@@ -347,6 +347,7 @@ a,h1,h2,h3,h4,p{
     .exp-answer{
         width:95%;
         margin:10px auto 20px;
+        font-weight:bold;
     }
     .exp-answer p{
         padding-left:20px;
