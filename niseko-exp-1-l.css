@@ -366,4 +366,8 @@ a,h1,h2,h3,h4,p{
         font-weight:lighter;
         font-size:13px;
     }
+    .exp-answer span{
+        font-weight:lighter;
+        font-size:14px;
+    }
 }
