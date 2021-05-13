@@ -1,0 +1,338 @@
+@font-face {
+    font-family:"bold";
+    src: url(NasuM-Bold-20200227.ttf);
+}
+@font-face {
+    font-family:"normal";
+    src: url(Nasu-Regular-20200227.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    overflow-x: hidden;
+}
+.border{
+    margin:20px auto;
+}
+h1{
+    font-family:"bold";
+}
+p,a,li{
+    font-family:"normal";
+}
+
+a,h1,h2,h3,h4,p{
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+    letter-spacing: 1px;
+}
+#en{
+    font-family:'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+@media screen and (max-width: 1000px){
+    header{
+        width:100%;
+        border-bottom:2px solid #bbbbbb;
+        height:90px;
+        background-color:#eee5f0;
+    }
+    #header1{
+        text-align:center;
+    }
+    #header1 img{
+        width:110px;
+        
+    }
+    #header-access{
+        display:none;
+    }
+    #header-btn-ct{
+        display:none;
+    }
+    #nav-bar3{
+        display:none;
+    }
+    /* メイン */
+    main{
+        width:100%;
+    }
+    /* ハンバーガー */
+    .header__inner {
+        margin: 0;
+    
+        width: 100%;
+      }
+      .header li {
+        list-style-type: none;
+        margin-top: 30px;
+      }
+      
+      .sideMenu {
+        background-color: #fff;
+        height: 100vh;
+        overflow-y: auto;
+        padding-top: 56px;
+        position: fixed;
+        right: -200px;
+        transition: all 0.6s;
+        top: 0;
+        width: 200px;
+        z-index: 200;
+      }
+      
+      .hamburger {
+        cursor: pointer;
+        height: 56px;
+        position: fixed;
+        right: 20px;
+        top: 0;
+        width: 56px;
+        z-index: 300;
+      }
+      .hamburger span {
+        background-color: #111;
+        height: 5px;
+        left: 11px;
+        position: absolute;
+        transition: all 0.6s;
+        width: 30px;
+      }
+      .hamburger__lineTop {
+        top: 40px;
+      }
+      .hamburger__lineCenter {
+        top: 49px;
+      }
+      .hamburger__lineBottom {
+        top: 58px;
+      }
+      .overlay {
+        background-color: #000;
+        cursor: pointer;
+        height: 100vh;
+        left: 0;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        transition: all 0.6s;
+        visibility: hidden;
+        width: 100vw;
+        z-index: 100;
+      }
+      /* メニューが開いた時のCSS */
+      .nav-open .sideMenu {
+        background-color: #fff;
+        right: 0;
+      }
+      .nav-open .hamburger__lineTop {
+        top: 26px;
+        transform: rotate(45deg);
+      }
+      .nav-open .hamburger__lineCenter {
+        left: 50%;
+        width: 0;
+      }
+      .nav-open .hamburger__lineBottom {
+        top: 26px;
+        transform: rotate(-45deg);
+      }
+      .nav-open .overlay {
+        opacity: 0.8;
+        visibility: visible;
+      }
+      section {
+        margin: 0 auto 200px;
+        text-align: center;
+        width: 80%;
+      }
+      
+      nav{
+        text-align: center;
+      }
+    
+      .logo-img{
+        width:300px;
+      }
+      .menu-img{
+        height:80px;
+        padding:10px 0;
+      }
+      nav i{
+        font-size:30px;
+        float: left;
+        margin-left:20px;
+      }
+      .sideMenu :hover{
+        opacity:0.4;
+        transition:0.5s;
+      }
+      .sideMenu a{
+        transition:0.5s;
+      }
+      .menu-indi{
+          margin:20px 0;
+      }
+      .menu-indi li{
+          font-weight:bold;
+      }
+       /* 一つめ */
+    #exp-left-container{
+        width:100%;
+        margin:20px auto;
+        background-color:white;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    #exp-person-ct{
+        width:95%;
+        margin:10px auto 30px;
+        filter: drop-shadow(0px 0px 0px #aaa);
+        border:1px solid rgba(128, 128, 128, 0.322);
+        padding:10px 0;
+        background-color:rgba(128, 128, 128, 0.067);
+    }
+    #exp-person-ct h1{
+        padding:0 20px;
+    }
+    #exp-person-ct p{
+        padding:0 20px;
+    }
+    .exp-question{
+        width:95%;
+        margin:0 auto;
+        background-color:#c9b0eb2a;
+        border:2px solid #c9b0eb94;
+        line-height:40px;
+        
+        
+    }
+    .exp-question p{
+        padding-left:10px;
+        font-weight:bold;
+        width:90%;
+        margin:0 auto;
+    }
+    .exp-answer{
+        width:95%;
+        margin:10px auto 20px;
+    }
+    .exp-answer p{
+        padding-left:10px;
+    }
+    #tsuite{
+        text-align:center;
+        font-size:22px;
+        margin:20px 0;
+    }
+    #exp-top{
+        width:100%;
+        margin-top:20px;
+        padding-bottom:10px;
+        
+        border-radius:10px;
+        
+        
+        border-top:rgba(149, 35, 152, 0.813) 2px solid;
+        filter: drop-shadow(5px 5px 5px #aaa);
+        background-color:rgba(240, 206, 241, 0.479);
+    }
+    #exp-container{
+        width:95%;
+        margin:0 auto;
+
+    }
+    #exp-top h1{
+        font-size:20px;
+        margin:10px ;
+    }
+    #exp-top p{
+        
+        margin:10px ;
+    }
+    /* footer */
+    footer{
+        width:100%;
+        
+        background-color:rgba(128, 128, 128, 0.259);
+        padding:20px 0;
+    }
+    .footer-ct{
+        width:95%;
+        height:100%;
+        margin:0 auto;
+    }
+    .footer-1{
+        width:48%;
+        height:300px;
+        
+        padding-top:20px;
+        display:inline-block;
+        vertical-align:top;
+        border-right:2px solid rgb(91, 91, 91);
+    }
+    .footer-1 h1{
+        color:rgb(91, 91, 91);
+        font-size:20px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .footer-1 a{
+        line-height:30px;
+        font-size:15px;
+        color:rgb(91, 91, 91);
+        text-decoration: underline;
+    }
+    .footer-2{
+        width:48%;
+        height:300px;
+        
+        padding-top:20px;
+        display:inline-block;
+        vertical-align:top;
+        text-align:center;
+    }
+    .footer-2 h1{
+        color:rgb(91, 91, 91);
+        font-size:20px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .footer-1 a{
+        line-height:30px;
+        font-size:15px;
+        color:rgb(91, 91, 91);
+        text-decoration: underline;
+    }
+    .fab{
+        font-size:50px;
+    }
+    .footer-last{
+        text-align:center;
+        width:80%;
+        margin:0 auto;
+        font-size:14px;
+        color:rgb(91, 91, 91);
+        margin-top:50px;
+    }
+    .footer-3{
+        width:100%;
+        padding-top:20px;
+        
+        text-align:center;
+    }
+    .footer-3 img{
+        height:200px;
+    }
+    .footer-3 p{
+        font-size:22px;
+    }
+    #exp-top-heading{
+        font-size:20px;
+    }
+}
