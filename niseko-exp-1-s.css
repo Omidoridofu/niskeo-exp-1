@@ -224,6 +224,7 @@ a,h1,h2,h3,h4,p{
     }
     .exp-answer p{
         padding-left:10px;
+        font-weight:bold;
     }
     #tsuite{
         text-align:center;
