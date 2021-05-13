@@ -336,4 +336,8 @@ a,h1,h2,h3,h4,p{
     #exp-top-heading{
         font-size:20px;
     }
+    .exp-answer span{
+        font-weight:lighter;
+        font-size:14px;
+    }
 }
