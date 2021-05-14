@@ -370,4 +370,10 @@ a,h1,h2,h3,h4,p{
         font-weight:lighter;
         font-size:14px;
     }
+    #back-to{
+        text-decoration: underline;
+    }
+    header a{
+        text-decoration: none;
+    }
 }
