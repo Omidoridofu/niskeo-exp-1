@@ -28,7 +28,6 @@ p,a,li{
 }
 
 a,h1,h2,h3,h4,p{
-    text-decoration: none;
     color:rgb(61, 61, 61);
     letter-spacing: 1px;
 }
