@@ -21,10 +21,12 @@ body{
     margin:20px auto;
 }
 h1,h2{
-    font-family:"bold";
+    font-family:"Hiragino Kaku Gothic ProN",
+    "Hiragino Sans";
 }
 p,a,li{
-    font-family:"normal";
+    font-family:"Hiragino Kaku Gothic ProN",
+    "Hiragino Sans";
 }
 
 a,h1,h2,h3,h4,p{
