@@ -28,7 +28,6 @@ p,a,li{
 }
 
 a,h1,h2,h3,h4,p{
-    text-decoration: none;
     color:rgb(61, 61, 61);
     letter-spacing: 1px;
 }
@@ -339,5 +338,16 @@ a,h1,h2,h3,h4,p{
     .exp-answer span{
         font-weight:lighter;
         font-size:14px;
+    }#back-to{
+        text-decoration: underline;
     }
+    header a{
+        text-decoration: none;
+    }
+    #exp-left{
+        border-bottom:1px solid rgba(128, 128, 128, 0.293);
+        padding-bottom:10px;
+    }
+    
+    
 }
